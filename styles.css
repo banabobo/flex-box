@@ -1,0 +1,52 @@
+/*.flex{
+    background-color: black;
+}*/
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container3{
+    display: flex;
+
+}
+.fitem{
+    margin: 10px;
+}
+
+.learn, 
+.empty {
+    border: 2px solid black;
+    width: 574px;
+    background-color: lightgreen;
+    font-size: 50px;
+}
+
+.uniq {
+    border: 2px solid black;
+    background-color: lightblue;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    width: 1148px;
+
+}
+
+.in, 
+.fif,
+.mn {
+    border: 2px solid black;
+    width: 200px;
+    height: 45px;
+    background-color: lightgreen;
+}
+.fif{
+    background-color: lightblue;
+}
