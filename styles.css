@@ -22,7 +22,9 @@
     background-color: black;
     margin: 5px;
 }
-
+.deux{
+    display: flex;
+}
 
 /*
 
@@ -54,7 +56,6 @@
 
 /*setting properties for 2nd container element */
 .uniq {
- 
     background-color: lightblue;
    -webkit-text-stroke: 4px black; /*outline text in black*/
     color: white;
@@ -97,9 +98,15 @@
 }
 
 
-.rect2{
+.rect2,
+.rect3{
     background-color: gold;
     color: white;
     -webkit-text-stroke: 1px black; /*outline text in black*/
     font-size: 130px;
+    width: 100%;
+}
+.rect3{
+    background-color: azure;
+    color: green;
 }
